@@ -1,0 +1,14 @@
+Debian has packaged 'helix' as 'hx'. You can symlink its runtime for the features that it offers OOTB.
+
+'ln -s /usr/lib/hx/runtime $HOME/.config/helix'
+
+Then check with 'hx --health'
+
+It should then output:
+"Runtime directories: /home/<username>/.config/helix/runtime;/usr/lib/hx/runtime"
+"Runtime directory /home/<username>/.config/helix/runtime is symlinked to: /usr/lib/hx/runtime"
+
+Note that this can be different on other distributions (like Arch Linux, as it is packaged as "helix", executable by doing 'helix')
+
+Furthermore, check their official documentation for more information.
+https://docs.helix-editor.com/

@@ -71,7 +71,7 @@ Fonts used:
 - [Arial](https://learn.microsoft.com/en-us/typography/font-list/arial)
 
 # Sources used: 
-> huge thanks to these as it helped me a lot
+> All credits goes to the rightful owners.
 
 [Debian Sway Configuration](https://github.com/agung-satria/debian-sway/)
 
@@ -81,3 +81,4 @@ Fonts used:
 
 [Catppuccin](https://catppuccin.com/)
 
+[Wallpapers](https://github.com/teowelton/Wallpapers)

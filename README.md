@@ -79,4 +79,5 @@ Fonts used:
 
 [Fastfetch](https://github.com/fastfetch-cli/fastfetch)
 
+[Catppuccin](https://catppuccin.com/)
 

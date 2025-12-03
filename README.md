@@ -2,7 +2,7 @@
 
 > Why name it skeleton?
 
-> Nothing deep really. By definition, skeletons are arranged to have a form of a human, an animal or any living thing.
+> "dotfiles" sounds too common, gotta make it special at least.
 
 Primarily I use [Sway](https://swaywm.org/), a tiling wayland compositor.
 
@@ -19,9 +19,6 @@ skeleton
 │   ├── .bashrc
 │   ├── pkgs-install.sh
 │   └── README
-├── brave-policies
-│   ├── README
-│   └── policies.json
 ├── fastfetch
 │   └── config.jsonc
 ├── foot
@@ -54,21 +51,10 @@ skeleton
 └── README..md
 ```
 
-> [!IMPORTANT]
-Things to consider:
-
-I am using bitmap fonts for this setup in which Debian has disabled by default. You can enable it with:
-```
-sudo dpkg-reconfigure fontconfig-config
-```
-Then reload with:
-```
-sudo dpkg-reconfigure fontconfig
-```
 Fonts used:
-- [cozette](https://github.com/the-moonwitch/Cozette)
-- [FantasqueSansM Nerd Font](https://www.programmingfonts.org/#fantasque-sans)
+- [Iosevka](https://www.programmingfonts.org/#iosevka)
 - [Arial](https://learn.microsoft.com/en-us/typography/font-list/arial)
+- [Martian](https://www.programmingfonts.org/#martian-mono)
 
 # Sources used: 
 > All credits goes to the rightful owners.
@@ -79,10 +65,5 @@ Fonts used:
 
 [Debian Sway Configuration](https://github.com/agung-satria/debian-sway/)
 
-[Brave Debloat](https://github.com/MulesGaming/brave-debloatinator)
-
 [Fastfetch](https://github.com/fastfetch-cli/fastfetch)
 
-[Catppuccin](https://catppuccin.com/)
-
-[Wallpapers](https://github.com/teowelton/Wallpapers)

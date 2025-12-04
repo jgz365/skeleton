@@ -1,23 +1,35 @@
-#== Navigation Keys - like VIM
-set $up     j
-set $down   k
-set $left   h
-set $right  l
+# =========================
+# Defaults (Applications) 
+# or some stuff too
+# =========================
 
-#== Set default - Terminal
+# =============
+# Global Font
+# (hidden)
+# =============
+font pango:monospace 0.11
+
+# ==============
+# Foot Terminal 
+# ==============
 set $term foot
 
-#== Set default - Application Launcher
+# =====================
+# Application Launcher
+# =====================
 set $menu tofi-drun | xargs swaymsg exec --
 
-#== Set default - Browser
-set $browser firefox-esr
+# ========
+# Browser
+# ========
+set $browser google-chrome
 
-#== Set default - Terminal
+# =========
+# Terminal
+# =========
 set $fm thunar
 
-#== Set modifier key - "Win Key"
+# =============
+# Modifier Key 
+# =============
 floating_modifier $mod normal
-
-#== Set Wallpaper
-output * bg $HOME/.config/sway/102.jpg fill

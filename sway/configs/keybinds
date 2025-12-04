@@ -1,45 +1,102 @@
-#== Reload configuration file
-  bindsym $mod+t reload
+# =========
+# Keybinds
+# =========
 
-#== Terminate focused window
-  bindsym $mod+q kill
+# ==========================
+# Reload configuration file
+# ==========================
+bindsym $mod+t reload
 
-#== Launch terminal
-  bindsym $mod+Return exec $term
+# ==========================
+# Terminate focused window
+# ==========================
+bindsym $mod+q kill
 
-#== Launch application launcher
-  bindsym $mod+d exec $menu
+# ==========================
+# Launch terminal
+# ==========================
+bindsym $mod+Return exec $term
 
-#== Launch powermenu launcher
-  bindsym $mod+Shift+e exec $HOME/.config/tofi/powermenu.sh
+# ===========================
+# Launch application launcher
+#============================
+bindsym $mod+d exec $menu
 
-# == Launch color picker
-  bindsym $mod+Shift+q exec wl-color-picker
-  
-#== Launch browser
-  bindsym $mod+w exec $browser
+# ==========================
+# Launch powermenu launcher
+# ==========================
+bindsym $mod+Shift+e exec $HOME/.config/tofi/powermenu.sh
 
-#== Launch file manager
-  bindsym $mod+e exec $fm
+# ====================
+# Launch color picker
+# ====================
+bindsym $mod+Shift+q exec wl-color-picker
 
-#== Launch SwayNC
-  bindsym $mod+z exec swaync-client -t -sw
+# ===============
+# Launch browser
+# ===============
+bindsym $mod+w exec $browser
 
-#== Screenshot Keybinds
+# ====================
+# Launch file manager
+# ====================
+bindsym $mod+e exec $fm
 
-#== Copy and Save Output
-  bindsym Ctrl+Print exec grimshot --notify copy output
-  bindsym $mod+Print exec grimshot --notify save output
+# =================
+# Launch SwayNC
+# =================
+bindsym $mod+z exec swaync-client -t -sw
 
-#== Copy Area
-  bindsym $mod+Shift+s exec grimshot --notify copy area
+# ==========================
+# Screenshot 
+# ==========================
 
-#== Adjust volume
-  bindsym XF86AudioRaiseVolume exec pamixer -ui 5
-  bindsym XF86AudioLowerVolume exec pamixer -ud 5
+# ==========================
+# Whole Screen
+# ==========================
+bindsym Ctrl+Print exec grimshot --notify copy output
+bindsym $mod+Print exec grimshot --notify save output
 
-#== Adjust brightness
-  bindsym XF86MonBrightnessUp exec brightnessctl set +5%
-  bindsym XF86MonBrightnessDown exec brightnessctl set 5%-
+# ==========================
+# Copy Area
+# (Like Snipping Tool)
+# ==========================
+bindsym $mod+Shift+s exec grimshot --notify copy area
+
+# ==========================
+# Clipboard Manager
+# ==========================
+
+# ==========================
+# Pick a text
+# ==========================
+bindsym $mod+Shift+a exec pkill wofi || clipman pick -t wofi
+
+# ==========================
+# Remove a text
+# ==========================
+bindsym $mod+s exec clipman clear -t wofi
+
+# ==========================
+# Clear history
+# ==========================
+bindsym $mod+Shift+d exec clipman clear --all && \
+ notify-send "Clipman" "All clipboard cleared"
+
+# ==========================
+# Volume and Brightness
+# ========================== 
+
+# ==========================
+# Volume
+# ========================== 
+bindsym XF86AudioRaiseVolume exec pamixer -ui 5
+bindsym XF86AudioLowerVolume exec pamixer -ud 5
+
+# ==========================
+# Brightness
+# ==========================
+bindsym XF86MonBrightnessUp exec brightnessctl set +5%
+bindsym XF86MonBrightnessDown exec brightnessctl set 5%-
 
 

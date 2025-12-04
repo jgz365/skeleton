@@ -1,15 +1,29 @@
-#== Set cursor theme 
+# =================================================================
+# Theming
+# GTK Theme, Icon Theme and Cursor Theme are handled by 'nwg-look'
+# =================================================================
 
+# ===================================
+# Set wallpaper
+# (no idea where to put this really)
+# ===================================
+output * bg $HOME/.config/sway/102.jpg fill
+
+# ===============================================
+# Set cursor theme globally (wayland shenanigans)
+# ================================================
 seat seat0 xcursor_theme Skyrim-by-ru5tyshark-cursors 32
 
-#== Launch Waybar
-
+# =======================
+# Launch Waybar
+# =======================
 bar {
   swaybar_command waybar
 }
 
-#== Set border colors
-
+# =======================
+# Border Colors
+# =======================
 client.focused            #225877 #225877 #225877 #225877 #225877
 client.focused_inactive   #2f2f2f #2f2f2f #2f2f2f #2f2f2f #2f2f2f
 client.unfocused          #2f2f2f #2f2f2f #2f2f2f #2f2f2f #2f2f2f

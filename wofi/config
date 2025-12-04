@@ -1,0 +1,17 @@
+# =======================================
+# Wofi Settings
+# Only used for Clipboard Manager
+# Configured for 1366x768 Screen Display
+# =======================================
+
+term=foot
+width=1200
+height=600
+x=85
+y=45
+insensitive=true
+mode=drun
+allow_images=false
+image_size=0
+hide_scroll=true
+prompt=

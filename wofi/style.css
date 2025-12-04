@@ -1,0 +1,48 @@
+* {
+    font-family: 'Arial, monospace';
+    font-size: 16px;
+    border-radius: 0px !important;
+}
+
+window {
+    margin: 0px;
+    padding: 0px;              /* remove space inside the window */
+    border: 4px solid #225877;
+    border-radius: 0px;
+}
+
+#outer-box {
+    margin: 0px;
+    padding: 0px;              /* kill extra padding that pushes border down */
+}
+
+#inner-box {
+    margin: 0px;
+    padding: 0px;
+}
+
+#scroll {
+    margin: 0px;
+    padding: 0px;
+}
+
+#input {
+    margin: 0px;
+    padding: 6px 10px;         /* adjust to taste */
+    border: none;
+    border-radius: 0px;
+    background: transparent;   /* so it blends with window */
+    color: white;
+}
+
+#entry {
+    padding: 6px 10px;
+    background: transparent;
+    border-radius: 0px !important;
+}
+
+#entry:selected {
+    background: #225877;       /* your highlight color */
+    border-radius: 0px !important;
+}
+

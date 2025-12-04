@@ -1,5 +1,10 @@
-#== Switch to workspace 'X'
+# =======================
+# Workspaces
+# =======================
 
+# =======================
+# Switch to workspace 'X'
+# =======================
 bindsym $mod+1 workspace number 1
 bindsym $mod+2 workspace number 2
 bindsym $mod+3 workspace number 3
@@ -10,7 +15,9 @@ bindsym $mod+7 workspace number 7
 bindsym $mod+8 workspace number 8
 bindsym $mod+9 workspace number 9
 
-#== Move active window to workspace 'X'
+# ===================================
+# Move active window to workspace 'X'
+# ===================================
 
 bindsym $mod+Shift+1 move container to workspace number 1
 bindsym $mod+Shift+2 move container to workspace number 2

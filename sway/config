@@ -1,8 +1,33 @@
-# == Bind the default key to "Windows Key" for global keybind.
+# ===========================
+# SwayWM Configuration Files
+# ===========================
+# Hierarchal Structure:
+# ===========================
+# sway
+# ├── configs
+# │   ├── autostart
+# │	  ├── defaults
+# │	  ├── input
+# │	  ├── keybinds
+# │	  ├── rules
+# │	  ├── theme
+# │	  ├── window
+# │	  └── workspaces 
+# └── config
+# =================================
+# This file serves as an index.
+#
+# Each config files were separated
+# for better maintainability.
+# =================================
 
+# ==============================
+# Set 'Win-Key' as default bind.
+# 'Mod1' = Alt-Key
+# ==============================
 set $mod Mod4
 
-# == Source the configuration files on 'configs' folder.
-# == Keeping them separate makes it cleaner and organized, for me at least.
-
+# ==========================================================
+# Sourcing the files that are under the directory 'configs'.
+# ==========================================================
 include $HOME/.config/sway/configs/*

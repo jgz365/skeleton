@@ -12,7 +12,6 @@ skeleton
 ├── bash-things
 │   ├── .bash_aliases
 │   ├── .bashrc
-│   ├── pkgs-install.sh
 │   └── README
 ├── fastfetch
 │   └── config.jsonc

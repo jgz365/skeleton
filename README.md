@@ -34,10 +34,6 @@ Here's how the configuration would look like:
 
 ```
 skeleton
-├── bash-things
-│   ├── .bash_aliases
-│   ├── .bashrc
-│   └── README
 ├── chrome
 │   └── userChrome.css
 ├── fastfetch

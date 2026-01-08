@@ -25,10 +25,16 @@ toolkit.legacyUserProfileCustomizations.stylesheets
 ```
 in `about:config`.
 
+To locate the current used profile, go to `about:profiles` and look for ***Root Directory***, which would look like
+```
+	/home/<username>/.mozilla/firefox/<some random jargon idk why mozilla even did this>.default-default
+```
+
 Here's how the configuration would look like:
 
 <img width="1366" height="731" alt="image" src="https://github.com/user-attachments/assets/0b8ecc7c-ca44-4eb8-a56a-96f7e5236953" />
 
+---
 
 ## 📂 Repository Structure:
 
@@ -99,21 +105,22 @@ skeleton
 # Sources used:
 > All credits goes to the rightful owners.
 
-[The Void Linux Handbook](https://docs.voidlinux.org/) <br>
 [Arch Wiki](https://wiki.archlinux.org/title/Main_page) <br>
-[Vim LSP](https://github.com/mattn/vim-lsp-settings) <br>
-[Vim Master](https://github.com/renzorlive/vimmaster) <br>
-[Github Formatting Syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) <br>
-[i3wm](https://i3wm.org/) <br>
-[i3wm Starter Pack](https://github.com/addy-dclxvi/i3-starterpack) <br>
-[Sway](https://swaywm.org/) <br>
-[Debian Wiki](https://wiki.debian.org/FrontPage) <br>
 [Debian Packages](https://www.debian.org/distrib/packages) <br>
 [Debian Sway Configuration](https://github.com/agung-satria/debian-sway/) <br>
+[Debian Wiki](https://wiki.debian.org/FrontPage) <br>
 [Fastfetch](https://github.com/fastfetch-cli/fastfetch) <br>
+[Github Formatting Syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) 
+<br>
+[i3wm](https://i3wm.org/) <br>
+[i3wm Starter Pack](https://github.com/addy-dclxvi/i3-starterpack) <br>
+[Ly Display Manager](https://github.com/fairyglade/ly) <br>
+[Nano Syntax Highlighting](https://github.com/galenguyer/nano-syntax-highlighting) <br>
 [Nerd Fonts](https://www.nerdfonts.com/) <br>
+[Optimizing Firefox](https://wiki.archlinux.org/title/Firefox/Tweaks)
 [Papirus Icon Theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) <br>
 [Squared](https://github.com/EliverLara/Squared) <br>
-[Nano Syntax Highlighting](https://github.com/galenguyer/nano-syntax-highlighting) <br>
-[Ly Display Manager](https://github.com/fairyglade/ly) <br>
-[Optimizing Firefox](https://wiki.archlinux.org/title/Firefox/Tweaks)
+[Sway](https://swaywm.org/) <br>
+[The Void Linux Handbook](https://docs.voidlinux.org/) <br>
+[Vim LSP](https://github.com/mattn/vim-lsp-settings) <br>
+[Vim Master](https://github.com/renzorlive/vimmaster) <br>

@@ -5,6 +5,19 @@
 
 This will always be a work in progress, expect changes from time to time.
 
+## Key Notes: 
+> Probably for me too
+
+If you're using nano with the [syntax highlighting](https://github.com/galenguyer/nano-syntax-highlighting), it's better to cherry-pick the ones you'll use. Then again, I think Vim would suit better since you can configure it with LSP and some more stuff. There's also [NeoVim](https://neovim.io/) that uses [Lua](https://www.lua.org/) instead of vimscript. (main advantages are the language being much more known, much less complex than VimL too I might add) You can also use [Helix](https://helix-editor.com/), also great text editor.
+
+Vim isn't actually hard? Well, for me it isn't now. [Vim Master](https://github.com/renzorlive/vimmaster) actually helped me to learn the basics of vim in under 10 minutes. Highly recommended.
+
+In i3/scripts/powermenu.sh, Lines 8-11 are using `loginctl`, which is from `elogind` as Void uses runit. If you want this to work with systemd, change this to `systemctl`, provided that you have `polkitd` installed or else it won't shutdown or do anything since you lack permission.
+
+For font compatibility, (not exactly "compatibility" in a way that it would break if you don't have these installed, it's just to look much more nice) install [Poppins](https://fonts.google.com/specimen/Poppins) font and whatever font you prefer in Nerd Fonts.
+
+As for the display manager (or login manager, whatever the name is) I use [Ly](https://github.com/fairyglade/ly), or just use the good ol' `startx` from tty, assuming you have configured .xinitrc
+
 ## 📂 Repository Structure:
 
 ```
@@ -90,4 +103,6 @@ skeleton
 [Fastfetch](https://github.com/fastfetch-cli/fastfetch) <br>
 [Nerd Fonts](https://www.nerdfonts.com/) <br>
 [Papirus Icon Theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) <br>
-[Squared](https://github.com/EliverLara/Squared)
+[Squared](https://github.com/EliverLara/Squared) <br>
+[Nano Syntax Highlighting](https://github.com/galenguyer/nano-syntax-highlighting) <br>
+[Ly Display Manager](https://github.com/fairyglade/ly)

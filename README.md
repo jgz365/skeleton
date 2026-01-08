@@ -18,6 +18,18 @@ For font compatibility, (not exactly "compatibility" in a way that it would brea
 
 As for the display manager (or login manager, whatever the name is) I use [Ly](https://github.com/fairyglade/ly), or just use the good ol' `startx` from tty, assuming you have configured .xinitrc
 
+### For Firefox:
+To make `userChrome.css` work, make sure to enable
+```
+toolkit.legacyUserProfileCustomizations.stylesheets
+```
+in `about:config`.
+
+Here's how the configuration would look like:
+
+<img width="1366" height="731" alt="image" src="https://github.com/user-attachments/assets/0b8ecc7c-ca44-4eb8-a56a-96f7e5236953" />
+
+
 ## 📂 Repository Structure:
 
 ```
@@ -26,6 +38,8 @@ skeleton
 │   ├── .bash_aliases
 │   ├── .bashrc
 │   └── README
+├── chrome
+│   └── userChrome.css
 ├── fastfetch
 │   └── config.jsonc
 ├── foot
@@ -105,4 +119,5 @@ skeleton
 [Papirus Icon Theme](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) <br>
 [Squared](https://github.com/EliverLara/Squared) <br>
 [Nano Syntax Highlighting](https://github.com/galenguyer/nano-syntax-highlighting) <br>
-[Ly Display Manager](https://github.com/fairyglade/ly)
+[Ly Display Manager](https://github.com/fairyglade/ly) <br>
+[Optimizing Firefox](https://wiki.archlinux.org/title/Firefox/Tweaks)
